@@ -1,0 +1,93 @@
+body {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  background-color: #fff;
+  line-height: 125%;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+}
+
+h2 {
+  color: navy;
+  font-size: 130%;
+  font-weight: normal;
+  padding-top: 15px;
+}
+
+h2 {
+  margin-top: 15px;
+}
+
+table 
+{
+  table-layout: automatic;
+  border: 0px;
+  text-align: left;
+} 
+
+td
+{ 
+  vertical-align: top;
+} 
+
+table.report {
+  border-collapse: collapse;
+  border: 1px solid black;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+table.report th, table.report td {
+  padding: 4px;
+  border: 1px solid #000;
+}
+
+table.report th {
+  font-size: x-small;
+  text-align: left;
+  background: #eee;
+  color: #000;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 2px;
+  padding-right: 2px;
+  width: 180px;
+}
+
+table.report td {
+  font-size: x-small;
+}
+
+table.report caption {
+  color: #000066;   
+  font-size: small;   
+  font-weight: bold;   
+  text-align: left;
+}
+
+caption.imagenes  {
+  color: #000066;   
+  font-size: small;   
+  font-weight: bold;   
+  text-align: center;
+}
+
+/* Positioning */
+
+#tabla1 {
+	position: static;
+	top: 0px;
+}
+#tabla2 {
+	position: static;
+}
+#tabla3 {
+	position: static;
+}
+#tabla4 {
+	position: static;
+}
+
