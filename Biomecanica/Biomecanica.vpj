@@ -1,0 +1,151 @@
+<!DOCTYPE Project SYSTEM "http://www.slickedit.com/dtd/vse/10.0/vpj.dtd">
+<Project
+	Version="10.0"
+	VendorName="SlickEdit"
+	WorkingDir=".">
+	<Config
+		Name="Debug"
+		DebugCallbackName="xdebug"
+		Type="php"
+		OutputFile=""
+		CompilerConfigName="">
+		<Menu>
+			<Target
+				Name="Execute"
+				MenuCaption="E&amp;xecute"
+				Dialog="_php_options_form Run"
+				CaptureOutputWith="ProcessBuffer"
+				SaveOption="SaveNone"
+				RunFromDir="%rw"
+				Deletable="0">
+				<Exec
+					CmdLine="php_execute %(SLICKEDIT_PHP_EXECUTE_ARGS)"
+					Type="Slick-C"/>
+			</Target>
+			<Target
+				Name="Debug"
+				MenuCaption="&amp;Debug"
+				Dialog="_php_options_form Debug"
+				CaptureOutputWith="ProcessBuffer"
+				SaveOption="SaveNone"
+				RunFromDir="%rw"
+				Deletable="0">
+				<Exec
+					CmdLine="php_debug"
+					Type="Slick-C"/>
+			</Target>
+			<Target
+				Name="PHP Options"
+				MenuCaption="PHP &amp;Options"
+				ShowOnMenu="HideIfNoCmdLine"
+				Deletable="0">
+				<Exec
+					CmdLine="phpoptions"
+					Type="Slick-C"/>
+			</Target>
+		</Menu>
+		<List Name="PHP Options">
+			<Item
+				Name="AppType"
+				Value="web-local"/>
+			<Item
+				Name="DefaultFile"
+				Value=""/>
+			<Item
+				Name="ScriptArguments"
+				Value=""/>
+			<Item
+				Name="InterpreterArguments"
+				Value=""/>
+			<List Name="Map">
+				<Item
+					Name="RemoteUrl"
+					Value="http://localhost/biomecanica"/>
+				<Item
+					Name="LocalRoot"
+					Value="C:\wamp\www\Biomecanica\"/>
+			</List>
+		</List>
+		<List Name="Xdebug Options">
+			<Item
+				Name="ServerHost"
+				Value="127.0.0.1"/>
+			<Item
+				Name="ServerPort"
+				Value="9000"/>
+			<Item
+				Name="ListenInBackground"
+				Value="1"/>
+			<Item
+				Name="StayInDebugger"
+				Value="1"/>
+			<Item
+				Name="AcceptConnections"
+				Value="prompt"/>
+			<Item
+				Name="BreakInSession"
+				Value="step-into"/>
+			<Item
+				Name="show_hidden"
+				Value="1"/>
+			<List Name="Map">
+				<Item
+					Name="RemoteRoot"
+					Value="C:\wamp\www\Biomecanica\"/>
+				<Item
+					Name="LocalRoot"
+					Value="C:\wamp\www\Biomecanica\"/>
+			</List>
+		</List>
+	</Config>
+	<Files AutoFolders="DirectoryView">
+		<F N="antepies.php"/>
+		<F N="artejos.php"/>
+		<F N="bar.php"/>
+		<F N="Biomecanica.vpj"/>
+		<F N="Biomecanica.vpw"/>
+		<F N="Biomecanica.vpwhist"/>
+		<F N="BiomecDB.sql"/>
+		<F N="buscit.php"/>
+		<F N="busmed.php"/>
+		<F N="buspac.php"/>
+		<F N="busqueda.php"/>
+		<F N="buttonBackground.gif"/>
+		<F N="cadera.php"/>
+		<F N="citas.php"/>
+		<F N="citasdoc.php"/>
+		<F N="citaspac.php"/>
+		<F N="columna.php"/>
+		<F N="config.php"/>
+		<F N="data.sql"/>
+		<F N="db.php"/>
+		<F N="estadopies.php"/>
+		<F N="footer.php"/>
+		<F N="foto.php"/>
+		<F N="functions.php"/>
+		<F N="gen_validatorv2.js"/>
+		<F N="header.php"/>
+		<F N="index.php"/>
+		<F N="login.php"/>
+		<F N="logout.php"/>
+		<F N="medicos.php"/>
+		<F N="medidas.php"/>
+		<F N="pacientes.php"/>
+		<F N="podograma.php"/>
+		<F N="products.php"/>
+		<F N="readme.txt"/>
+		<F N="reporte.php"/>
+		<F N="rescit.php"/>
+		<F N="resmed.php"/>
+		<F N="respac.php"/>
+		<F N="results.php"/>
+		<F N="rodillas.php"/>
+		<F N="scw.js"/>
+		<F N="style1.css"/>
+		<F N="stylesheet.css"/>
+		<F N="tibia.php"/>
+		<F N="tipo_zap.php"/>
+		<F N="uploader.php"/>
+		<F N="uploadprocess.php"/>
+	</Files>
+</Project>
